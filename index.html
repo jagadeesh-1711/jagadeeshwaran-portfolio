@@ -368,10 +368,63 @@ test_repeated_login    <b>PASSED</b></div></div>
   </form>
 </div>
 </section>
-<footer>
-<span>© 2026 Jagadeeshwaran T · Salem, Tamil Nadu</span>
-<span>QA automation, Python and embedded systems</span>
+<footer class="portfolio-footer">
+  <div class="footer-thanks">
+    <div>
+      <strong>Thanks for exploring my work.</strong>
+      <p>Let’s build something meaningful together.</p>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <span>© 2026 Jagadeeshwaran T.</span>
+    <small>Crafted with code and purpose.</small>
+  </div>
 </footer>
+
+<style>
+  .portfolio-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--border, rgba(128, 128, 128, .25));
+  }
+  .footer-thanks,
+  .footer-copyright {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+  .footer-thanks strong,
+  .footer-copyright span {
+    display: block;
+    font-weight: 600;
+  }
+  .footer-thanks p,
+  .footer-copyright small {
+    display: block;
+    margin: .3rem 0 0;
+    color: var(--muted, #9298a5);
+    font-size: .875rem;
+  }
+  .footer-copyright {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+    text-align: right;
+  }
+  @media (max-width: 600px) {
+    .portfolio-footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footer-copyright {
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+</style>
 </main>
 <div aria-label="Resume of Jagadeeshwaran T" aria-modal="true" class="viewer" hidden="" id="viewer" role="dialog">
 <div class="vbar">
