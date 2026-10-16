@@ -1,74 +1,97 @@
-# Jagadeeshwaran T — Professional Portfolio
+# 👋 Hi, I'm Jagadeeshwaran T
+### Aspiring Software Developer | Python | Java | AI & Test Automation
 
-A single-page responsive portfolio with separate HTML, CSS, and JavaScript files, plus an optional Node.js/Express backend for the contact form.
+I’m an Electronics and Communication Engineering graduate (2026) passionate about building practical software solutions, exploring AI-powered applications, and writing reliable, maintainable code.
 
-## Project structure
+I enjoy solving problems, learning new technologies, and turning ideas into working applications. I’m currently strengthening my software development skills through hands-on projects, AI development, and test automation.
 
-```text
-Jagadeeshwaran_T_Portfolio_GitHub_Project/
-├── index.html                 # Frontend markup
-├── assets/
-│   ├── css/style.css          # All portfolio styling and animations
-│   └── js/
-│       ├── config.js          # Backend API URL
-│       └── main.js            # Theme, navigation, interactions, contact form
-├── backend/
-│   ├── server.js              # Express contact API
-│   ├── package.json
-│   ├── .env.example
-│   └── README.md
-├── .gitignore
-└── README.md
-```
+🌐 **Portfolio:** [View My Portfolio](https://jagadeesh-1711.github.io/jagadeeshwaran-portfolio/)  
+💼 **LinkedIn:** [Connect with Me](https://www.linkedin.com/in/jagadeeshwaran-t-3874012b7/)  
+💻 **GitHub:** [Explore My Projects](https://github.com/jagadeesh-1711)
 
-## Run the frontend locally
+---
 
-The frontend is static. Open `index.html` in a browser for the portfolio UI. For a local server, use VS Code Live Server or run `python -m http.server 5500` from the project root. With Live Server, the page is normally at `http://127.0.0.1:5500`.
+## 🚀 About Me
 
-The contact form needs the backend to be running and configured. Follow `backend/README.md`. Set `window.PORTFOLIO_API_URL` in `assets/js/config.js` to the API URL. Locally, use `http://localhost:5000`.
+- 🎓 Electronics and Communication Engineering — 2026 graduate.
+- 💻 Interested in Software Development, Python Development, and Java Development.
+- 🤖 AI Developer Intern at **Supporticon Strategies Private Limited**, working with web search and browser test automation.
+- 🧪 Hands-on experience with Playwright, pytest, and automated web testing.
+- 🔍 Exploring web crawling, AI-powered search applications, and backend development.
+- 🌱 Continuously learning data structures, algorithms, software engineering, and clean coding practices.
 
-## Publish the frontend with GitHub Pages
+## 🛠️ Technical Skills
 
-> GitHub Pages hosts static files only. It cannot run the Express/Node backend. The frontend can live on GitHub Pages while the backend is deployed separately (for example, to Render or another Node.js host).
+| Category | Technologies |
+|---|---|
+| Programming Languages | Python, Java, C |
+| Web Technologies | HTML, CSS, JavaScript |
+| Testing & Automation | Playwright, pytest |
+| AI & Web Search | Crawl4AI, Groq API |
+| Databases | SQLite |
+| Embedded & IoT | Arduino, ESP8266, Sensors |
+| Tools | Git, GitHub, VS Code |
 
-1. Sign in to GitHub and create a **public repository** named `jagadeeshwaran-portfolio` (or another name you prefer).
-2. Extract this ZIP and open the extracted project folder.
-3. In the folder, open a terminal and run:
+## 💼 Internship Experience
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Create professional portfolio"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/jagadeeshwaran-portfolio.git
-   git push -u origin main
-   ```
+### AI Developer Intern — Supporticon Strategies Private Limited
 
-   Replace `YOUR-USERNAME` with your actual GitHub username. If Git asks you to sign in, follow the GitHub browser authentication prompt.
+- Worked on web search functionality and AI-powered search application development.
+- Used web crawling techniques to collect and process website content.
+- Explored Crawl4AI and Groq API for AI-assisted search workflows.
+- Developed and executed browser automation tests using Playwright and pytest.
+- Practiced debugging, functional validation, and improving application reliability.
 
-4. On GitHub, open the repository → **Settings** → **Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Choose branch `main`, folder `/(root)`, then click **Save**.
-7. Wait for the Pages deployment. The website URL will be similar to `https://YOUR-USERNAME.github.io/jagadeeshwaran-portfolio/`.
+## 📌 Featured Projects
 
-### Recommended: enable the contact form backend
+### 1. AI-Powered Web Search Application
+**Technologies:** Python, Crawl4AI, Groq API
 
-1. Deploy the `backend` folder as a Node.js web service on a backend host such as Render. Set the root directory to `backend`, build command to `npm install`, and start command to `npm start`.
-2. Add environment variables from `backend/.env.example` in the host dashboard. Use a Gmail **App Password** for `SMTP_PASS`; never publish credentials in GitHub.
-3. Set `FRONTEND_URL` to your exact GitHub Pages origin, e.g. `https://YOUR-USERNAME.github.io` (no path). Include local origins only if needed for development.
-4. Copy the deployed backend URL, e.g. `https://your-api.onrender.com`, into `assets/js/config.js`:
+- Explored website content extraction and AI-assisted search workflows.
+- Worked on retrieving relevant website information to support user queries.
+- Focused on making web information easier to search and understand.
 
-   ```js
-   window.PORTFOLIO_API_URL = "https://your-api.onrender.com";
-   ```
+### 2. Playwright Web Automation Testing
+**Technologies:** Python, Playwright, pytest
 
-5. Commit and push the updated `config.js`. The contact form can then send messages through the backend.
+- Built automated tests for login functionality.
+- Tested valid and invalid login scenarios.
+- Practiced browser interaction, assertions, and automated test execution.
+- Worked on organizing test results for easier verification.
 
-If you don't deploy the backend or configure SMTP, the portfolio itself still loads; the form will show a useful message and the direct Gmail/email links remain available.
+### 3. Smart AI-Based Neonatal Health Monitoring System
+**Technologies:** Python, Flask, SQLite, Arduino, Machine Learning
 
-## Before publishing
+- Developed an IoT-based health monitoring concept using sensor data.
+- Integrated a Python backend for processing incoming data.
+- Explored machine learning classification and a dashboard for displaying monitoring results.
 
-- Check your LinkedIn, GitHub, phone, and email links.
-- Do not commit `.env`, SMTP passwords, API keys, or other secrets.
-- Check the site on both desktop and mobile after deployment.
-- Replace any demo or placeholder project links with your real repositories/live demos.
+### 4. EV Smart Guard — Temperature-Based Fan Control
+**Technologies:** Arduino, DS18B20, LCD, Relay, DC Fan
+
+- Designed a temperature monitoring and automatic cooling concept.
+- Used a temperature sensor to monitor changing conditions.
+- Integrated a fan-control mechanism to support temperature management.
+
+## 🎯 Career Objective
+
+To begin my career as a Software Developer in an organization where I can apply my programming fundamentals, analytical thinking, and practical project experience while contributing to meaningful software solutions and growing as an engineer.
+
+## 📈 Currently Improving
+
+- Java and Python programming
+- Data Structures and Algorithms
+- Object-Oriented Programming
+- Software testing and debugging
+- Backend development and API integration
+- Git, GitHub, and collaborative development
+
+## 🤝 Let's Connect
+
+I'm open to entry-level opportunities in **Software Development, Python Development, and Java Development**.
+
+If you're a recruiter, developer, or technology enthusiast, feel free to connect with me.
+
+⭐ Explore my repositories and portfolio to see my projects and learning journey.
+
+**Thanks for visiting my GitHub profile!**
